@@ -48,11 +48,6 @@
         classALL[i].classList.remove("highlight");
       } e.preventDefault();}, false);
     
-    idBTN.addEventListener("mouseover", function(e){
-      spID.classList.add("highlight");
-      e.preventDefault();}, false);
-    idBTN.addEventListener("mouseout", function(e){
-      spID.classList.remove("highlight");
-      e.preventDefault();}, false);
+  
     
   
