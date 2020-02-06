@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript getElement(s)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>&lt;h1&gt;JavaScript getElement(s) examples&lt;/h1&gt;</h1>
+  <p class="foo">&lt;p class="foo"&gt;Select the target you want to highlight by either clicking the button or hovering over it:&lt;/p&gt;</p>
+
+  <span>&lt;span&gt;click-buttons:&lt;/span&gt;</span>
+  <button id="h2-button">h2</button>
+  <button id="p-button">p</button>
+  <button id="psp-button">p span</button>
+  <br><br>
+
+  <span>&lt;span&gt;hover-buttons:&lt;/span&gt;</span>
+  <button id="class-button">class="foo"</button>
+  <button id="id-button">id="special"</button>
+
+  <h2>&lt;h2&gt;Targeting CSS selectors&lt;/h2&gt;</h2>
+  <p>&lt;p&gt;You can target HTML tags using <span>&lt;/span&gt;CSS&lt;/span&gt;</span> <code>querySelectorAll</code>. This returns an array.&lt;/p&gt;</p>
+
+  <h2>&lt;h2&gt;Targeting tags&lt;/h2&gt;</h2>
+  <p>&lt;p&gt;You can target HTML tags using <code>getElementsByTagName</code>. This returns an array.&lt;/p&gt;</p>
+
+  <h2 class="foo">&lt;h2 class="foo"&gt;Targeting classes&lt;/h2&gt;</h2>
+  <p class="foo">&lt;p class="foo"&gt;You can target different HTML tags based on the class they've got using <code>getElementsByClassName</code>. This returns an array.&lt;/p&gt;</p>
+
+  <h2 class="bar">&lt;h2 class="bar"&gt;Targeting IDs&lt;/h2&gt;</h2>
+  <p id="special">&lt;p id="special"&gt;You can also target a specific ID (remember these are unique) using <code>getElementById</code>. This returns a single item.&lt;/p&gt;</p>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
